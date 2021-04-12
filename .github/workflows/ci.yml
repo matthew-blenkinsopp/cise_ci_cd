@@ -30,12 +30,12 @@ jobs:
   - name: Run the tests
     run: npm test
 
-    
-  
   - name: Build
     run: npm run build
  
- 
+ - name: Heroku Action
+  uses: CDNievas/heroku-action@v1.0
+
  
  
  
